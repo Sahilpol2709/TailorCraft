@@ -57,7 +57,7 @@ c) **Import the Database:**
 3. Import the provided `.sql` file into the newly created database.
 
 d) **Configure Database Credentials:**
-1. Navigate to the `config` or `database.php` file in your project.
+1. Navigate to the `config` or `db_connection.php` file in your project.
 2. Update the MySQL credentials (username, password, and database name) to match your local setup.
 
 e) **Run the Project:**
@@ -83,4 +83,4 @@ Feel free to open a pull request or submit an issue to help improve TailorCraft.
 Developed by **Sahil Suryakant Pol**  
 📧 polsahil007@gmail.com  
 📱 +91 9833364089  
-[LinkedIn](https://www.linkedin.com/in/sahilpol-92750728a/) | [GitHub](https://github.com/yourusername)
+[LinkedIn](https://www.linkedin.com/in/sahilpol-92750728a/) | [GitHub](https://github.com/Sahilpol2709)

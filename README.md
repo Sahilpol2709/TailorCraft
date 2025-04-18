@@ -69,4 +69,3 @@ f) **Start Developing:**
 You're now all set to begin working on the project!
 
 
-https://github.com/user-attachments/assets/c718b5ce-2c01-419f-80d8-54100d0d6b91

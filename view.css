@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background:  linear-gradient(45deg, #ffbb33, #ff44d0);
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    margin-bottom: 20px; 
+}
+
+.header-container .logo {
+    width: 130px; 
+    transition: transform 0.3s;
+    margin-right: 150px; 
+}
+
+.header-container .logo:hover {
+    transform: scale(1.05); 
+}
+
+.header-container h1 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: blue;
+    margin: 0;
+    font-size: 50px; 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    flex-grow: 1; 
+    text-align: left; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+td:first-child {
+    font-weight: bold;
+    color: black;
+}
+
+td:last-child {
+    color: #292929;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f39c12;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 15px;
+    text-align: center;
+}
+
+table td {
+    padding: 10px;
+}
+
+.table-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.action-buttons {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+button {
+    padding: 12px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #8800ff;
+    color: white;
+    transform: scale(1.05);
+}

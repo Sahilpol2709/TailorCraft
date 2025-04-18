@@ -69,3 +69,18 @@ f) **Start Developing:**
 You're now all set to begin working on the project!
 
 
+https://github.com/user-attachments/assets/1d272263-2c9f-4e03-a17f-6ad115867d37
+
+### 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!  
+Feel free to open a pull request or submit an issue to help improve TailorCraft.
+
+---
+
+### 📬 Contact
+
+Developed by **Sahil Suryakant Pol**  
+📧 polsahil007@gmail.com  
+📱 +91 9833364089  
+[LinkedIn](https://www.linkedin.com/in/sahilpol-92750728a/) | [GitHub](https://github.com/yourusername)

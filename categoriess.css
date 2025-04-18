@@ -1,0 +1,67 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url('Timg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.blouse-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.blouse-category {
+    background-color: #fff;
+    height: fit-content;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blouse-category:hover {
+    transform: scale(1.05); 
+}
+
+.blouse-category img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.blouse-category img:hover {
+    transform: scale(1.1); 
+}
+
+.blouse-category h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.blouse-category p {
+    font-size: 14px;
+    color: #666;
+}
+
+.blouse-category a {
+    display: block;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blouse-category a:hover {
+    text-decoration: underline;
+}

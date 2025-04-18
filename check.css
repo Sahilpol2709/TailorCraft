@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('sew.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    line-height: 1.6;
+    padding-top: 100px;
+}
+
+header {
+    background-color: #ffffffa4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo {
+    width: 120px;
+    transition: transform 0.3s
+}
+
+header .logo:hover{
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 30px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+nav ul li {
+    text-align: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    display: block;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.nav-name {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover .nav-logo {
+    transform: scale(1.1);
+}
+
+.nav-link:hover .nav-name {
+    color: #f7a400;
+}
+
+.nav-link.active .nav-logo,
+.nav-link.active .nav-name {
+    color: #f7a400;
+}
+
+.nav-link.active {
+    color: #f7a400;
+}
+
+.nav-link:hover {
+    color: #f7a400;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: rgb(17, 5, 255);
+    margin-bottom: 20px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.order-details {
+    background: #ffffff18;
+    padding: 30px;
+    border-radius:500px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.order-details p {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.order-details strong {
+    color: black;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background-color: #45a049;
+}
+
+button:focus {
+    outline: none;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .order-details {
+        padding: 20px;
+    }
+
+    .order-details p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 12px 25px;
+    }
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    height: 110px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer .social-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-links li {
+    margin: 0 15px;
+}
+
+footer .social-links a {
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: #f7a400;
+}

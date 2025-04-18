@@ -1,0 +1,34 @@
+2025-02-23 11:39:08 - Received JSON: {"order_id":"47","payment_id":"pay_Pz7cGWtcnz6ZWX","signature":"b7bdc27089b48bef37de6ef515b6ab78efe822325daf24a393421810f1db8929"}
+2025-02-23 11:39:08 - Signature verification successful for Payment ID: pay_Pz7cGWtcnz6ZWX
+2025-02-23 11:40:29 - Received JSON: 
+2025-02-23 11:40:29 - Invalid payment details: order_id = 0, payment_id = , signature = 
+2025-02-23 11:40:30 - Received JSON: 
+2025-02-23 11:40:30 - Invalid payment details: order_id = 0, payment_id = , signature = 
+2025-02-23 11:40:31 - Received JSON: 
+2025-02-23 11:40:31 - Invalid payment details: order_id = 0, payment_id = , signature = 
+Raw POST Data: {"order_id":"47","payment_id":"pay_Pz7fjPdjugAzI5","signature":"918bb8c47c95d7ffce14a943ffacaca4cfb4002843f68cfc40d554a5bf95369d"}
+🛠️ Signature Data: Array
+(
+    [razorpay_order_id] => order_Pz7fNKRy4vz5lf
+    [razorpay_payment_id] => pay_Pz7fjPdjugAzI5
+    [razorpay_signature] => 918bb8c47c95d7ffce14a943ffacaca4cfb4002843f68cfc40d554a5bf95369d
+)
+
+[23-Feb-2025 11:42:24 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payment_id' in 'field list' in C:\xampp\htdocs\Tailor\verify_payment.php:81
+Stack trace:
+#0 C:\xampp\htdocs\Tailor\verify_payment.php(81): mysqli->prepare('INSERT INTO pay...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tailor\verify_payment.php on line 81
+Raw POST Data: {"order_id":"47","payment_id":"pay_Pz84A0UaO3Yyxo","signature":"7f15ca2068292db9e009646fe3f8036116a58c3aa86f97bfd4eeada48203d6e5"}
+🛠️ Signature Data: Array
+(
+    [razorpay_order_id] => order_Pz82ACEGhtlFUM
+    [razorpay_payment_id] => pay_Pz84A0UaO3Yyxo
+    [razorpay_signature] => 7f15ca2068292db9e009646fe3f8036116a58c3aa86f97bfd4eeada48203d6e5
+)
+
+[23-Feb-2025 12:05:32 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'payment_id' in 'field list' in C:\xampp\htdocs\Tailor\verify_payment.php:81
+Stack trace:
+#0 C:\xampp\htdocs\Tailor\verify_payment.php(81): mysqli->prepare('INSERT INTO ord...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Tailor\verify_payment.php on line 81
